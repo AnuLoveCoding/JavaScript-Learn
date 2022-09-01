@@ -71,7 +71,8 @@
 // convection
 // start with small letter and use camelCase
 
-
+//  first_name :snake Case writing
+// firstName : camel Case writing 
 
 
 
