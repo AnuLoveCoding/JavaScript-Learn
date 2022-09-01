@@ -10,3 +10,4 @@ console.log(firstName);
 // block scope vs function scope (covered latter in this videos.)
 
 
+
