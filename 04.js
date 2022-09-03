@@ -50,23 +50,53 @@
 // switch statement 
 
 
-let day =  5
+// let day =  5
 
 
-switch(day){
-    case 1: console.log("sunday")
-           break;
-    case 2: console.log("Monday")
-         break;
-    case 3: console.log("Tuesday")
-              break;
-    case 4: console.log("Wednesday")
-         break
-    case 5: console.log("Thrusday")
-         break
-    case 6 : console.log("Friday")
-         break
-    case 7 : console.log("Saturday")
-          break
-    default : console.log("!Sorry, try ")
+// switch(day){
+//     case 1: console.log("sunday")
+//               break;
+//     case 2: console.log("Monday")
+//             break;
+//     case 3: console.log("Tuesday")
+//               break;
+//     case 4: console.log("Wednesday")
+//               break
+//     case 5: console.log("Thrusday")
+//             break
+//     case 6 : console.log("Friday")
+//             break
+//     case 7 : console.log("Saturday")
+//             break
+//     default : console.log("!Sorry, Day ")
+// }
+
+
+// while loop
+
+// let i=0
+// while(i<=10){
+//     console.log(i)
+//     i++
+// }
+
+// for loop
+ let bag=""
+ sum =0
+ prdt=1
+for (let i=1;i<=15;i++){
+    sum+=i
+    bag+=i+" "
+    prdt*=i
 }
+console.log(`sum of i is  : ${sum}`)
+console.log(`bag is feeling : ${bag}`)
+console.log(`prdt of is : ${prdt}`)
+
+
+// console.log(`current value of i is ${i}`)
+// console.log(`the value of i is ${i}`)
+// console.log(`hello word ${i}`)
+
+
+
