@@ -26,4 +26,7 @@ console.log(`#########################################`)
  console.log(`the value of array1 is ${array1}`)
  console.log(`the value of array2 is ${array2}`)
 
+
+
  
+
