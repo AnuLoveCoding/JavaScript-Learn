@@ -81,22 +81,26 @@
 // }
 
 // for loop
- let bag=""
- sum =0
- prdt=1
-for (let i=1;i<=15;i++){
-    sum+=i
-    bag+=i+" "
-    prdt*=i
-}
-console.log(`sum of i is  : ${sum}`)
-console.log(`bag is feeling : ${bag}`)
-console.log(`prdt of is : ${prdt}`)
+//  let bag=""
+//  sum =0
+//  prdt=1
+ 
+// for (let i=1;i<=10;i++){
+//     console.log(i)
+//     sum+=i
+//     bag+=i+" "
+//     prdt*=i
+// }
+// console.log(`sum of i is  : ${sum}`)
+// console.log(`bag is feeling : ${bag}`)
+// console.log(`prdt of is : ${prdt}`)
 
 
 // console.log(`current value of i is ${i}`)
 // console.log(`the value of i is ${i}`)
 // console.log(`hello word ${i}`)
+
+
 
 
 
