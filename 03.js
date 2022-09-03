@@ -94,7 +94,7 @@ console.log(aaj[Symbol.toPrimitive]('string'))
 let user="Anurag"
 let pass ="PApa*9430"
 
-let userName="Anurag"
+let userName="Anuag"
 let passWord="PApa*9430"
 
 let login = user==userName && pass==passWord  ? "Login" : "Wrong Username and passWord"
@@ -102,16 +102,48 @@ let login = user==userName && pass==passWord  ? "Login" : "Wrong Username and pa
 console.log(login)
 
 
-if(user==userName){
+// if(user==userName){
 
-  if(pass==passWord){
+//   if(pass==passWord){
 
-    console.log("login")
+//     console.log("login")
 
-  } else{
-    
-    console.log("Wrong Input")
-  }
+//   } else{
+
+//     console.log("Wrong Input")
+//   }
+// }
+
+// switch case for conditional statement
+
+ let choice = 1
+
+switch (choice){
+   case 1 :console.log("Hindi") 
+             break
+   case 2 : console.log("English");
+             break
+   case 3 : console.log("Marathi");
+            break
+   case 4: console.log("Punjabi");
+            break
+   case 5: console.log("Tamil");
+              break
+   case 6: console.log("Bhojpuri")
+             break
+ default:  console.log("Wrong Input")
 }
-
  
+
+// Problem 1: Given the year of birth, if the age is between 13 and 19 (both included) print Teenage and in between 20 and 29 (both included) print Twenties
+  let yob =  2001
+  let age = 2022-2005
+ 
+  if (age>=13 && age<=19){
+    console.log("Teenage")
+  }else if(age>=20 && age<=29){
+     console.log("Twenties")
+  }
+
+
+   age>=13 && age<=19 ? console.log("Teenage"): age>=20 && age<=29? console.log("Twenties") : console.log("N/A")
