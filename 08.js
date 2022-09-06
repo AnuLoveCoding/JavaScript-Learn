@@ -94,18 +94,20 @@
 //  difference between dot and bracket notation
 
    let key = "email"
-   const person ={
+   const person = {
     name : "Anurag",
      age  : 21,
      "me hobbies" : ["guitar","slleping","chess"]
  }
 
-console.log(person["me hobbies"])
+  console.log(person["me hobbies"])
 
-person[key]= "anusrivas07@gmail.com"
-console.log(person)
-person.email="anusrivas07@gmail.com"
-console.log(person["email"])
+   person[key]= "anusrivas07@gmail.com"
+    console.log(person)
+
+
+//   person.email="anusrivas07@gmail.com"
+//   console.log(person["email"])
 
 
 
