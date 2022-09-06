@@ -59,11 +59,11 @@
 // how to create objects
 
 
-// const person ={
-//    name : "Anurag",
-//    hobbies : ["chess","swim","music"],
-//    age: 21
-// }
+const person1 ={
+   name : "Anurag",
+   hobbies : ["chess","swim","music"],
+   age: 21
+}
 
 
 // const person ={
@@ -92,7 +92,7 @@
 //  console.log(person)
 
 //  difference between dot and bracket notation
-
+//  JavaScript in Objects key's are always in Objects
    let key = "email"
    const person = {
     name : "Anurag",
@@ -108,8 +108,3 @@
 
 //   person.email="anusrivas07@gmail.com"
 //   console.log(person["email"])
-
-
-
-
-
