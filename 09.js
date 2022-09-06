@@ -72,28 +72,31 @@
 
 //   let sum=add
 
-let arr =[..."anuragMundra"]
-console.log(arr)
+// let arr =[..."anuragMundra"]
+// console.log(arr)
   
 
 // for(let add of add1){
 //     console.log(add)
 // }
 
+// *****************spread operator in Object***************************
+
+const obj1 ={
+    key1: "Anurag",
+    key2 : "value2",
+}
 
 
-// const obj1 ={
-//     key1: "Anurag",
-//     key2 : "value2",
-// }
+const obj2={
+    key3 : 'value1',
+    key4 : "value2",
+}
 
-// const obj2={
-//     key3 : 'value1',
-//     key4 : "value2",
-// }
+let newObj ={...obj1,...obj2,key69: "value69"}
+console.log(newObj)
 
-// let newObj ={...obj1,...obj2,key70: "value6"}
-// console.log(newObj)
+
 
 
 
