@@ -1,1 +1,1 @@
-console.log("objects").
+console.log("objects");
