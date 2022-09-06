@@ -71,6 +71,9 @@
 // console.log(add)
 
 //   let sum=add
+
+let arr =[..."anuragMundra"]
+console.log(arr)
   
 
 // for(let add of add1){
