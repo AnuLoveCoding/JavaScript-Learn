@@ -27,8 +27,64 @@
 //  ********************hoisting*************** 
 
 
-hello()
-function hello(){
-    console.log("Anurag");
+// hello()
+// function hello(){
+//     console.log("Anurag");
 
+// }
+
+
+// ********************function in function;************
+
+// const app=()=>{
+
+//     console.log("inside app");
+// }
+// app()
+
+
+function app(){
+    const myfunc =()=>{
+        console.log("hello from myFunc")
+    }
+
+    const add=(num1,num2) => {
+        return num1+num2;
+    }
+
+    const mul=(num3,num4)=> num3*num4;
+    console.log("inside the app")
+     console.log(add(3,4));
+     console.log(mul(4,3));
 }
+
+
+app();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
