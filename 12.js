@@ -16,9 +16,19 @@
 // //  console.log(a);
 
 
-const isEven=(number)=>{
-    return number%2==0
-    return false;
-}
+// const isEven= number =>{
+//     return number % 10 ==0;} 
+//     console.log(isEven(10));
 
-console.log(isEven(2));
+
+// const isOdd = number => number%3==0;
+// console.log(isOdd(6));
+
+//  ********************hoisting*************** 
+
+
+hello()
+function hello(){
+    console.log("Anurag");
+
+}
