@@ -34,4 +34,35 @@
 //  splice method
 //  start, delete, insert
 
-const myArray = [ ]
+const myArray = ['item1','item2','itme3']
+// //  delete 
+//  myArray.splice(1,1)
+//  console.log(myArray)
+
+
+// ********************inserted********************* 
+
+// myArray.splice(1,0,'inserted item');
+
+// console.log(myArray);
+
+//  insert and delete simultanesiouly
+
+
+myArray.splice(1,2,"inserted item1",'inserted item2');
+console.log('deletem item',deletedItem);
+console.log(myArray);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
