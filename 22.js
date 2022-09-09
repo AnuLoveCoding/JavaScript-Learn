@@ -56,9 +56,9 @@
 //  }
 //  const aboutUser= user.about();
 
-// function (that function create object)
-// 2.) add key value pair
-// 3.) object return karega
+// // function (that function create object)
+// // 2.) add key value pair
+// // 3.) object return karega
 
 
 // function createUser(firstName, lastName, email, age, address){
@@ -74,7 +74,7 @@
 // }
 
 
-//  this is happening
+// //  this is happening
 
 
 
