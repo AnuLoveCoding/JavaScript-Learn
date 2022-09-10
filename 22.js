@@ -76,6 +76,27 @@
 
 // //  this is happening
 
+//  ******************************new key-word*********************************//
+
+function createUser(firstName,age){
+    this.firstName = firstName;
+    this.age = age;
+
+}
+
+  const user1= new createUser("anurag",21);
+  //   new kwyword , 
+// 1.) empty object this ={};
+// 2.) return this 
+//  3.) 
+  console.log(user1);
+
+//   _ _ proto_ _ 
+// official escamscript document 
+  
+
+
+
 
 
 
